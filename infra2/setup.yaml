@@ -18,6 +18,7 @@ spec:
   path: ./terraform2
   approvePlan: "auto"
   storeReadablePlan: "human"
+  workspace: output-demo
   interval: 1m
   sourceRef:
     kind: GitRepository
